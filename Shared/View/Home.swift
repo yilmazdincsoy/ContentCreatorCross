@@ -17,6 +17,7 @@ struct Home: View {
         }
         .frame(width: window!.width / 1.5, height: window!.height - 40)
         .preferredColorScheme(.light)
+        .background(BlurWindow())
     }
 }
 

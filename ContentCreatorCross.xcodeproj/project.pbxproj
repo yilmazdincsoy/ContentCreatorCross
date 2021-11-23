@@ -21,6 +21,8 @@
 		027D0DA7274D55DA0015516D /* DisclosureGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D0DA5274D55DA0015516D /* DisclosureGroupView.swift */; };
 		027D0DA9274D63710015516D /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D0DA8274D63710015516D /* TabButton.swift */; };
 		027D0DAA274D63710015516D /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D0DA8274D63710015516D /* TabButton.swift */; };
+		027D0DAC274D64C70015516D /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D0DAB274D64C70015516D /* BlurWindow.swift */; };
+		027D0DAD274D64C70015516D /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D0DAB274D64C70015516D /* BlurWindow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,7 @@
 		027D0DA2274D22F60015516D /* SideBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 		027D0DA5274D55DA0015516D /* DisclosureGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupView.swift; sourceTree = "<group>"; };
 		027D0DA8274D63710015516D /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+		027D0DAB274D64C70015516D /* BlurWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurWindow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,7 @@
 				027D0DA2274D22F60015516D /* SideBar.swift */,
 				027D0DA5274D55DA0015516D /* DisclosureGroupView.swift */,
 				027D0DA8274D63710015516D /* TabButton.swift */,
+				027D0DAB274D64C70015516D /* BlurWindow.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,6 +207,7 @@
 				027D0D92274D19ED0015516D /* ContentView.swift in Sources */,
 				027D0DA0274D1A360015516D /* Home.swift in Sources */,
 				027D0D90274D19ED0015516D /* ContentCreatorCrossApp.swift in Sources */,
+				027D0DAC274D64C70015516D /* BlurWindow.swift in Sources */,
 				027D0DA9274D63710015516D /* TabButton.swift in Sources */,
 				027D0DA3274D22F60015516D /* SideBar.swift in Sources */,
 				027D0DA6274D55DA0015516D /* DisclosureGroupView.swift in Sources */,
@@ -216,6 +221,7 @@
 				027D0D93274D19ED0015516D /* ContentView.swift in Sources */,
 				027D0DA1274D1A3E0015516D /* Home.swift in Sources */,
 				027D0D91274D19ED0015516D /* ContentCreatorCrossApp.swift in Sources */,
+				027D0DAD274D64C70015516D /* BlurWindow.swift in Sources */,
 				027D0DAA274D63710015516D /* TabButton.swift in Sources */,
 				027D0DA4274D23150015516D /* SideBar.swift in Sources */,
 				027D0DA7274D55DA0015516D /* DisclosureGroupView.swift in Sources */,
