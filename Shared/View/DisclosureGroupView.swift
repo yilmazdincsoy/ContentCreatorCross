@@ -8,25 +8,24 @@
 import SwiftUI
 
 struct DisclosureGroupView: View {
+    //Tabbutton için gerekli propertyler
+    @State var selected = "Home"
+    //booleans
     @State var isOnHover = false
     @State var isExpanded = true
     // list oluşturulana kadar dummy data
-    var dummyContent = ""
     var header = ""
+    
     var body: some View {
         DisclosureGroup(isExpanded: $isExpanded, content: {
             //içerik tasarımı
             ScrollView(.vertical){
-                Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/) {
-                    HStack(spacing: 10){
-                        Image(systemName: "note.text")
-                        Text(dummyContent)
-                        Spacer()
-                    }
-                    .padding(.leading, 20)
-                }
-                .buttonStyle(PlainButtonStyle())
-                
+                TabButton(image: "note.text", title: "dinamik", selected: $selected)
+                TabButton(image: "note.text", title: "hareket", selected: $selected)
+                TabButton(image: "note.text", title: "harmonik", selected: $selected)
+                TabButton(image: "note.text", title: "atış", selected: $selected)
+                TabButton(image: "note.text", title: "elektrik", selected: $selected)
+                TabButton(image: "note.text", title: "dairesel", selected: $selected)
             }
             
             
@@ -37,7 +36,7 @@ struct DisclosureGroupView: View {
                 Button(action: {isExpanded.toggle()}) {
                     HStack{
                         Text(header)
-                            .fontWeight(.semibold)
+                            .fontWeight(.bold)
                         Spacer()
                     }
                 }
@@ -56,11 +55,6 @@ struct DisclosureGroupView: View {
                     isOnHover = hovering
                 }
             })
-            
-            
-            
-            
-            
         })
     }
 }

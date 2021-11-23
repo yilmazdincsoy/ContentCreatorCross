@@ -8,13 +8,12 @@
 import SwiftUI
 
 struct SideBar: View {
-    @State var isExpanded = true
-    @State var isOnHover = false
     var body: some View {
         HStack {
             VStack{
-                DisclosureGroupView(dummyContent: "Dinamik", header: "Subjects")
-                DisclosureGroupView(dummyContent: "Yazılı", header: "Packages")
+                
+                DisclosureGroupView(header: "Subjects")
+                DisclosureGroupView(header: "Packages")
                 Spacer()
             }
         

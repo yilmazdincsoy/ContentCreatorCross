@@ -8,13 +8,32 @@
 import SwiftUI
 
 struct TabButton: View {
+    var image: String
+    var title: String
+    @Binding var selected: String
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            withAnimation(.spring()){
+                selected = title
+            }
+        }){
+            HStack{
+                Image(systemName: image)
+                    .font(.title2)
+                    .foregroundColor(selected == title ? Color.black : black)
+                    .frame(width: 25)
+                Text(title)
+                    .fontWeight(selected == title ? .semibold : .none)
+                    .foregroundColor(selected == title ? Color.black : black)
+                    .animation(.none)
+                Spacer()
+            }
+            .padding(.leading)
+            .frame(height: 25)
+        }
+        .buttonStyle(PlainButtonStyle())
     }
 }
 
-struct TabButton_Previews: PreviewProvider {
-    static var previews: some View {
-        TabButton()
-    }
-}
+var black = Color.black.opacity(0.5)
