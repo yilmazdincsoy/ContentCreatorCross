@@ -10,13 +10,15 @@ import SwiftUI
 struct TabButton: View {
     var image: String
     var title: String
+    @State var isOnHover = false
     @Binding var selected: String
-
+    
     var body: some View {
         Button(action: {
             withAnimation(.spring()){
                 selected = title
             }
+            //TODO: konunun soruları questionsbar da listelenecek
         }){
             HStack{
                 Image(systemName: image)
@@ -29,10 +31,18 @@ struct TabButton: View {
                     .animation(.none)
                 Spacer()
             }
+            .background(Color.black.opacity(isOnHover ? 0.2 : 0))
             .padding(.leading)
             .frame(height: 25)
         }
         .buttonStyle(PlainButtonStyle())
+        .onHover(perform: {hovering in
+            withAnimation{
+                isOnHover = hovering
+            }
+        })
+        
+        
     }
 }
 

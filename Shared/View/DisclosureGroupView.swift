@@ -27,13 +27,16 @@ struct DisclosureGroupView: View {
                 TabButton(image: "note.text", title: "elektrik", selected: $selected)
                 TabButton(image: "note.text", title: "dairesel", selected: $selected)
             }
-            
-            
         }, label: {
             //header kısmının tasarımı
-            
             HStack{
-                Button(action: {isExpanded.toggle()}) {
+                Button(action: {
+                    withAnimation{
+                        isExpanded.toggle()
+                    }
+                    
+                    
+                }) {
                     HStack{
                         Text(header)
                             .fontWeight(.bold)
@@ -49,7 +52,6 @@ struct DisclosureGroupView: View {
                 .buttonStyle(PlainButtonStyle())
                 
             }
-            
             .onHover(perform: {hovering in
                 withAnimation{
                     isOnHover = hovering

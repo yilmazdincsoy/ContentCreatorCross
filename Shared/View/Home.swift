@@ -12,10 +12,13 @@ struct Home: View {
     var body: some View {
         HStack{
             SideBar()
+            QuestionsBar()
+            Spacer()
+            QuestionView()
             Spacer()
            
         }
-        .frame(width: window!.width / 1.5, height: window!.height - 40)
+        .frame(width: window!.width, height: window!.height)
         .preferredColorScheme(.light)
         .background(BlurWindow())
     }

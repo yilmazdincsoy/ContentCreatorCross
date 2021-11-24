@@ -23,6 +23,10 @@
 		027D0DAA274D63710015516D /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D0DA8274D63710015516D /* TabButton.swift */; };
 		027D0DAC274D64C70015516D /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D0DAB274D64C70015516D /* BlurWindow.swift */; };
 		027D0DAD274D64C70015516D /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D0DAB274D64C70015516D /* BlurWindow.swift */; };
+		02A88D4A274E6CA1007632F6 /* QuestionsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A88D49274E6CA1007632F6 /* QuestionsBar.swift */; };
+		02A88D4B274E6CA1007632F6 /* QuestionsBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A88D49274E6CA1007632F6 /* QuestionsBar.swift */; };
+		02A88D50274EA50F007632F6 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A88D4F274EA50F007632F6 /* QuestionView.swift */; };
+		02A88D51274EA50F007632F6 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A88D4F274EA50F007632F6 /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,8 @@
 		027D0DA5274D55DA0015516D /* DisclosureGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureGroupView.swift; sourceTree = "<group>"; };
 		027D0DA8274D63710015516D /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		027D0DAB274D64C70015516D /* BlurWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurWindow.swift; sourceTree = "<group>"; };
+		02A88D49274E6CA1007632F6 /* QuestionsBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsBar.swift; sourceTree = "<group>"; };
+		02A88D4F274EA50F007632F6 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +108,8 @@
 				027D0DA5274D55DA0015516D /* DisclosureGroupView.swift */,
 				027D0DA8274D63710015516D /* TabButton.swift */,
 				027D0DAB274D64C70015516D /* BlurWindow.swift */,
+				02A88D49274E6CA1007632F6 /* QuestionsBar.swift */,
+				02A88D4F274EA50F007632F6 /* QuestionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -209,7 +217,9 @@
 				027D0D90274D19ED0015516D /* ContentCreatorCrossApp.swift in Sources */,
 				027D0DAC274D64C70015516D /* BlurWindow.swift in Sources */,
 				027D0DA9274D63710015516D /* TabButton.swift in Sources */,
+				02A88D4A274E6CA1007632F6 /* QuestionsBar.swift in Sources */,
 				027D0DA3274D22F60015516D /* SideBar.swift in Sources */,
+				02A88D50274EA50F007632F6 /* QuestionView.swift in Sources */,
 				027D0DA6274D55DA0015516D /* DisclosureGroupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,7 +233,9 @@
 				027D0D91274D19ED0015516D /* ContentCreatorCrossApp.swift in Sources */,
 				027D0DAD274D64C70015516D /* BlurWindow.swift in Sources */,
 				027D0DAA274D63710015516D /* TabButton.swift in Sources */,
+				02A88D4B274E6CA1007632F6 /* QuestionsBar.swift in Sources */,
 				027D0DA4274D23150015516D /* SideBar.swift in Sources */,
+				02A88D51274EA50F007632F6 /* QuestionView.swift in Sources */,
 				027D0DA7274D55DA0015516D /* DisclosureGroupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
