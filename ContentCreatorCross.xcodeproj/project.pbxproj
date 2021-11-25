@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		026ADAB1274FB5BA00186C35 /* Attainment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 026ADAB0274FB5BA00186C35 /* Attainment.swift */; };
 		027D0D90274D19ED0015516D /* ContentCreatorCrossApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D0D80274D19EB0015516D /* ContentCreatorCrossApp.swift */; };
 		027D0D91274D19ED0015516D /* ContentCreatorCrossApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D0D80274D19EB0015516D /* ContentCreatorCrossApp.swift */; };
 		027D0D92274D19ED0015516D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027D0D81274D19EB0015516D /* ContentView.swift */; };
@@ -30,6 +31,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		026ADAB0274FB5BA00186C35 /* Attainment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attainment.swift; sourceTree = "<group>"; };
 		027D0D80274D19EB0015516D /* ContentCreatorCrossApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCreatorCrossApp.swift; sourceTree = "<group>"; };
 		027D0D81274D19EB0015516D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		027D0D82274D19ED0015516D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		026ADAAF274FB5A700186C35 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				026ADAB0274FB5BA00186C35 /* Attainment.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		027D0D7A274D19EB0015516D = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +85,7 @@
 		027D0D7F274D19EB0015516D /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				026ADAAF274FB5A700186C35 /* Enums */,
 				027D0D9E274D1A290015516D /* View */,
 				027D0D81274D19EB0015516D /* ContentView.swift */,
 				027D0D82274D19ED0015516D /* Assets.xcassets */,
@@ -220,6 +231,7 @@
 				02A88D4A274E6CA1007632F6 /* QuestionsBar.swift in Sources */,
 				027D0DA3274D22F60015516D /* SideBar.swift in Sources */,
 				02A88D50274EA50F007632F6 /* QuestionView.swift in Sources */,
+				026ADAB1274FB5BA00186C35 /* Attainment.swift in Sources */,
 				027D0DA6274D55DA0015516D /* DisclosureGroupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

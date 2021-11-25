@@ -37,6 +37,7 @@ struct QuestionsBar: View {
 struct QuestionsBar_Previews: PreviewProvider {
     static var previews: some View {
         QuestionsBar()
+        ContentView()
     }
 }
 
